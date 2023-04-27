@@ -211,3 +211,32 @@ background: brown;
 	background: red;
 	color: white;
 }
+
+
+
+.classes{
+	background: #2f4f4f;
+
+}
+
+.class-container{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.classes h1{
+	text-shadow: 3px 4px 8px black;
+}
+
+.classimg{
+	background: black;
+	margin: 10px;
+	color: white;
+	text-shadow: 2px 4px 7px black;
+	letter-spacing: 2px;
+	font-weight: 100;
+	box-shadow: 3px 5px 10px black;
+/*	border-radius: 20px;*/
+}
