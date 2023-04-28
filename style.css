@@ -216,6 +216,7 @@ background: brown;
 
 .classes{
 	background: #2f4f4f;
+	padding: 60px;
 
 }
 
@@ -232,11 +233,57 @@ background: brown;
 
 .classimg{
 	background: black;
-	margin: 10px;
+	margin: 15px;
 	color: white;
 	text-shadow: 2px 4px 7px black;
 	letter-spacing: 2px;
 	font-weight: 100;
 	box-shadow: 3px 5px 10px black;
 /*	border-radius: 20px;*/
+transition: all .5s ease;
 }
+
+.classimg:hover{
+	transform: scale(1.1);
+
+}
+
+
+#registration{
+	background: url('img/banner.jpg') no-repeat center center/cover;
+	background-size: 100%;
+	width: 100%;
+	padding: 20px;
+	filter: contrast(110%);
+	
+
+}
+
+.reg-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 450px;
+	color: white;
+/*	background: red;*/
+	font-size: 30px;
+	text-shadow: 3px 5px 10px black;
+}
+
+.reg-container a{
+
+	font-size: 1em;
+	padding: 10px 20px;
+	background: black;
+/*	border: 3px soild red;*/
+	color: white;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.reg-container a:hover{
+	background: red;
+}
+
+
