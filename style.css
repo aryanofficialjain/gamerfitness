@@ -373,3 +373,42 @@ transition: all .5s ease;
 .plan a:hover{
 	background: black;
 }
+
+#photo{
+	background: black;
+	padding: 40px;
+}
+
+.photo-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pimg{
+	width: 20rem;
+	margin: 20px;
+	transition: all .5s ease-in-out;
+}
+#mainimg{
+	width: 21rem;
+}
+
+.pimg img{
+	width: 100%;
+}
+
+.pimg:hover{
+	background: red;
+/*	transform: skew(2deg);*/
+	transform: scale(1.1);
+}
+
+
+footer{
+	padding: 10px;
+	text-align: center;
+	background: red;
+	color: white;
+	font-size: 1.5rem;
+}
