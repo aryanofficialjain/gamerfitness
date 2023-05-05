@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url('img/bg2.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	filter: contrast(150%);
+	min-height: 100vh;
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 40px;
+/*	background: red;*/
+
+
+}
+
+.logo img{
+	width: 10rem;
+}
+
+
+#navbar ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+
+
+}
+
+#navbar ul li{
+	margin: 0px 10px;
+/*	background: yellow;*/
+/*	padding: 5px 10px;*/
+
+}
+
+#navbar ul li a{
+		border-radius: 6px;
+	color: white;
+	text-decoration: none;
+/*	background: red;*/
+	font-weight: bold;
+	padding: 5px 10px;
+
+}
+
+#navbar ul li a:hover{
+	background: red;
+
+
+}
+
