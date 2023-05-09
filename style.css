@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Roboto',sans-serif;
 	box-sizing: border-box;
 }
 /*
@@ -19,6 +22,8 @@ body{
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px 40px;
+	position: sticky;
+	top: 0;
 /*	background: red;*/
 
 
@@ -64,6 +69,62 @@ body{
 #checkbtn{
 	display: none;
 }
+
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+.head{
+/*	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0,0.8);*/
+		background-image: url('img/bg2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
+
+	min-height: 100vh;
+/*	padding: 20px;*/
+justify-content: center;
+
+/*position: relative;*/
+
+}
+.head-container{
+	margin: 0px 0px 0px 400px;
+	padding: 30px 10px;
+	min-height: 400px;
+	font-size: 2.8rem;
+	color: white;
+	text-shadow: 0 0 10px black;
+	flex-direction: column;
+/*	background: yellow;*/
+
+}
+
+.p-btn{
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 12px 24px;
+	display: block;
+/*	margin-left: 50px;*/
+	margin-left: auto;
+	background: red;
+	border-radius: 6px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	transition: all .5s ease-out;
+}
+
+
+.p-btn:hover{
+	background: white;
+	color: black;
+	text-shadow: none;
+	border: 1px solid red;
+
+}
+
 
 @media screen and (max-width:700px){
 	#checkbtn{
